@@ -1,0 +1,423 @@
+
+
+/* Multiple Page Attributes */
+html, body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: rgb(224, 224, 209);
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.about, .ratings, .reviews {
+	min-height: 100%;
+	background-color: white;
+}
+
+.ratings {
+	background-color: #e0e0d1 ;
+}
+
+#me, .container, #reviews, #contact {
+	padding: 40px 180px;
+}
+
+#me h2, .ratings h2, #reviews h2, #contact h2, #reviews h2 {
+	color: #a94442;
+	display: block;
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+#me hr, .ratings hr, #reviews hr, #contact hr, #main {
+	background-color: #a94442;
+	width: 50%;
+	height: 2px; 
+	border: 0;
+	opacity: 0.5;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+/* Navbar Attributes */
+.navbar-right {
+	margin-right: 2%;
+}
+
+nav li a {
+	color: white;
+}
+
+.nav > .active > a  {
+       background-color: #a94442 !important;
+}
+
+.nav.navbar-nav li a {
+    color: white;
+}
+
+.nav.navbar-nav li a:hover {
+    color: #a94442;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+  color: #FFFFFF; 
+}
+
+ul.nav.navbar-nav.navbar-right a, ul.nav.navbar-nav.navbar-right a:visited {
+	color: #FFFFFF;
+} 
+
+ul.nav.navbar-nav.navbar-right a:hover {
+	color: #a94442;
+}
+
+nav {
+	background-color: black !important;
+	border-color: black !important;
+}
+
+nav li {
+	font-size: 16px;
+	color: white;
+}
+
+
+
+/* Home Page Attributes */
+#continue {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#continue p {
+	font-size: 16px;
+	color: white
+}
+
+.glyphicon-menu-down {
+	font-size: 60px;
+	color: white;
+}
+
+.jumbotron {
+	background: no-repeat center right fixed url(../img/boba3.jpg); 
+	background-size: cover;
+	min-height: 100%;
+}
+
+.jumbotron .container {
+	text-align: center;
+	margin-top: 5%;
+	z-index: 2;
+}
+
+.jumbotron .container p {
+	color: #00251C;
+	font-weight: bold;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	letter-spacing: 1.5px;
+}
+
+
+.jumbotron .container h1 {
+	color: #00251C;
+	font-size: 60px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron .container hr {
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+#home, .about {
+	margin-bottom: 0;
+}
+
+#me h3 {
+	color: #a94442;
+	font-size: 30px;
+	font-weight: 300;
+	text-align: left;
+}
+
+/* About Attributes*/
+#italics {
+	text-align: center;
+}
+.about .col-md-4 img {
+	margin-top: 50%;
+	margin-left: -10%;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border-width: 10px; 
+	border: 7px solid #a94442;
+}
+
+.col-md-4 p {
+	font-size: 15px;
+	text-align: left;
+}
+
+#info {
+	font-size: 16px;
+}
+
+.about a {
+	color: #a94442;
+}
+
+
+/* Ratings Attributes*/
+
+
+
+
+ul > li {
+    color: #a94442;
+}
+ul > li > span {
+    color: black;
+}
+
+.ratings ul > li {
+    padding: 3px 0px;
+}
+
+.f {
+	color: #a94442;
+	font-size: 14px;
+}
+
+.e {
+	color: #bcbcbc;
+	font-size: 14px;
+}
+
+#ratings ul > li:hover .rating-stars .glyphicon { 
+	margin-left: 2px; 
+} 
+
+.rating-title {
+	font-size: 16px;
+}
+
+.ratings ul > li:hover {
+	background-color: #f1f1f1;
+}
+
+
+
+/* Review Attributes */
+.reviews .row div {
+	margin-bottom: 20px;
+}
+
+.reviews figure {
+	position: relative;
+	overflow: hidden;
+	color: white;
+}
+
+.reviews img {
+	width: 100%;
+	height: 202px;
+	border: 1px solid #a94442;
+}
+
+.reviews h4 {
+	color: white;
+	padding: 5px;
+	margin-top: 0px;
+	font-weight: 600;
+}
+
+figcaption {
+	background-color: #a94442;
+}
+
+.overlay {
+	display: none;
+	background-color: #a94442;
+	padding: 20px 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 202px;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.review:hover div {
+	display: block;
+	cursor: pointer;
+}
+
+
+
+.reviews figure .projicon {
+	background-color: #a94442;
+	opacity: 1;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}
+
+.reviews p {
+	margin-top: 40px;
+	font-weight: 600;
+}
+
+.projicon span {
+	z-index: 10;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 15px;
+	cursor: pointer;
+}
+
+.glyphicon-resize-full {
+	color: white;
+}
+
+
+
+/* Contact Attributes */
+#contact a {
+	display: block;
+	line-height: 32px;
+	margin-bottom: 20px;
+	color: black;
+	font-size: 16px;
+}
+
+.icon {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+#contact li:hover {
+	-webkit-transform: scale(1.1);
+}
+
+#labels {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-right: 20px;
+}
+
+#asterick, .about a {
+	color: #a94442;
+}
+
+textarea {
+	max-width: 210px;
+}
+
+button {
+	margin-left: 20px;
+	width: 100px;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 12px;
+}
+
+footer {
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+}
+
+
+.contact {
+	min-height: 100%;
+	position: relative;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 3px #a94442;
+  border: 1px solid #a94442;
+}
+
+#contact button:hover {
+	color: white !important;
+	background-color: #a94442 !important;
+}
+
+
+
+/* Modal Attributes */
+
+.modal {
+	color: white;
+	top: 20%;
+}
+.modal-content {
+	background-color: #a94442; 
+}
+
+.modal-header .close {
+	color: white;
+	opacity: 1;
+	margin-top: 3px;
+	margin-right: -30px;
+	font-size: 24px;
+}
+
+.close:hover {
+	color: white;
+	opacity: 0.5;
+}
+
+.modal p a {
+	color: white;
+}
+
+.modal-header h3 {
+	font-weight: 600;
+}
+
+
